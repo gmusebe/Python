@@ -131,3 +131,73 @@ x.popitem()
 # 5. Boolean
 5<6 # True
 4>5 # False
+
+
+#  Operators in python
+# a. Arithmetic Operators
+4 + 5
+"de" + "ck"
+
+9 - 3
+
+4 * 3
+
+8 / 2
+
+9 / 2
+
+#  Reminder
+9 % 2
+
+# Power
+6 ** 2
+
+# b. Assignment
+x = 3 # Assign x a value of 3
+
+x += 1 # Increment x by 1; 4
+
+x -= 2 # Decrement value; 2
+
+# Other functions include *= /= %= **= //=
+
+# c. Comparison operators
+# == !=  >= < <=
+
+x = 3
+y = 3
+z = 5
+
+x == y # True
+x != z # True
+
+# d. Logical Operators
+# and or not
+
+#  And concatenates the conditions
+3 > 2 and 4 > 2
+
+# OR Either
+3 > 2 or 2 > 4
+
+#  Is 2 not greater than 3
+not 2 > 3 # True
+
+
+# e. Identity Operators
+# is is not 
+x = 3
+y = 3
+x is y # True
+
+z = 5
+x is z # False
+
+# f. Membership Operators (Required in looping conditions)
+# in not in
+x = [1, 2, 3, 4]
+
+3 in x # True
+3 not in x # False
+
+# g. Bitwise
